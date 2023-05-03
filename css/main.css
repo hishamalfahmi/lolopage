@@ -12,7 +12,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color:  	#ffc8ee;
     display: grid;
     place-items: center;
     font-family: 'IBM Plex Mono', monospace;
@@ -26,14 +26,10 @@ body{
     grid-template-areas:"a a a a a" "d c e b g";
 }
 
-
 .container{
     max-width: 25rem;
 
 }
-
-
-
 
 .greeting{
     position: relative;
@@ -42,7 +38,7 @@ body{
     place-items: center;
     place-content: center;
     /* background-color: var(--primary); */
-    background-image: url("../3a7b4ec1e3dd8f55ba69d0f12df1748f.gif");
+    background-image: url("../1fdb008d3fdb801efe6cbdcce76a0609.gif");
     background-size:120%;
     background-position: center;
     min-height: 200px;
@@ -54,8 +50,9 @@ body{
     text-transform: capitalize;
         /* border: var(--secondary) 1px solid; */
     /* outline: var(--primary) 4px solid; */
-    box-shadow: 0 0 .2rem rgb(255, 255, 255);
-    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.074);
+    /* box-shadow: 0 0 .2rem rgb(255, 255, 255); */
+    /* box-shadow: 0 0 2rem rgba(255, 255, 255, 0.074); */
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.268)  ;
     overflow: hidden;
 }
 
@@ -96,8 +93,9 @@ body{
 
 .grid .shortcut:hover i{
     scale: 1;
-    color: #d2d2d2;
+    color: #ffffff;
     /* rotate: 15deg; */
+    
 }
 
 .grid .shortcut:first-child{
@@ -117,7 +115,18 @@ body{
     padding: 0;
     display: grid;
     place-items: center;
-    background-image: url("../d8e43bae5ab4a30cf06a35de4989d7c6.gif");
+    background-image: url("../bb1f5198ff6e896caa146bec5cfafada.gif");
     background-size: cover;
     box-shadow: 0 0 0px ;
 }
+
+
+.grid .netflix{
+    width: 75%;
+
+}
+
+.grid .mother{
+    /* background-color: red; */
+    display: grid;
+    place-items: center;}
